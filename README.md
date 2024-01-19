@@ -1,7 +1,7 @@
 ## my zshrc config
 
 ### prior to installation 👨‍🍳
-```
+```shell
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -18,7 +18,7 @@ link ref [here](https://stackoverflow.com/questions/47528373/visual-studio-code-
 <img width="603" alt="Screenshot 2024-01-19 at 3 17 43 PM" src="https://github.com/btjm123/zshrc-config/assets/19306879/93927470-cf44-4c6f-9a42-1a7d4548c780">
 
 4. use homebrew to install zsh
-```
+```shell
 # install some zsh plugins via homebrew
 brew install zsh zsh-completions zsh-syntax-highlighting
 
@@ -33,7 +33,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/z
 5. `⌘ +` -> profile -> text -> switch on natural text editing. also rmb to set back to vertical bar + blinking cursor
 
 some additional commands i had to run
-```
+```shell
 sudo chown -R $(whoami) /usr/local/share/zsh /usr/local/share/zsh/site-functions
 chmod u+w /usr/local/share/zsh /usr/local/share/zsh/site-functions
 ```
