@@ -1,4 +1,14 @@
-### my zshrc config
+## my zshrc config
+
+### prior to installation 👨‍🍳
+```
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+also rmb to install the code command
+link ref [here](https://stackoverflow.com/questions/47528373/visual-studio-code-shell-command-install-code-command-in-path-command)
+
+### let's go 🚀
 
 1. install iterm2
 2. open iterm2, `⌘ +`, create new profile, download any preset you love from [here](https://iterm2colorschemes.com/). save the file as `.itermcolors` and load preset
